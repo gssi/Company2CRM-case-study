@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<traceabilityModel:TraceabilityModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:traceabilityModel="http://cs.gssi.it/traceabilitymodel" xmi:id="_xb72gCLxEemiKL0LQWSqAQ" name="Company2CRM">
+  <links xsi:type="traceabilityModel:ClassTraceabilityLink" xmi:id="_0K5-MCLxEemiKL0LQWSqAQ" name="Company2CRM">
+    <links xmi:id="_DXO-cCLyEemiKL0LQWSqAQ"/>
+  </links>
+  <links xsi:type="traceabilityModel:ClassTraceabilityLink" xmi:id="_03hMkCLxEemiKL0LQWSqAQ" name="Person2Worker">
+    <constraint href="../model/Company.ecore#//Person/position"/>
+    <refConstraint href="../model/Company.ecore#//type/employee"/>
+    <sourceElem href="../model/Company.ecore#//Person"/>
+    <targetElem href="../model/CRM.ecore#//Worker"/>
+    <targetElem href="../model/CRM.ecore#//Account"/>
+    <links xmi:id="_D6OWwCLyEemiKL0LQWSqAQ"/>
+  </links>
+  <links xsi:type="traceabilityModel:ClassTraceabilityLink" xmi:id="_1RrZACLxEemiKL0LQWSqAQ" name="Person2Client">
+    <links xmi:id="_EN3EcCLyEemiKL0LQWSqAQ"/>
+  </links>
+  <links xsi:type="traceabilityModel:ClassTraceabilityLink" xmi:id="_1kfAQCLxEemiKL0LQWSqAQ" name="Europen2Project">
+    <links xmi:id="_Ej3wsCLyEemiKL0LQWSqAQ"/>
+  </links>
+  <links xsi:type="traceabilityModel:ClassTraceabilityLink" xmi:id="_11pBsCLxEemiKL0LQWSqAQ" name="National2Project">
+    <links xmi:id="_E_ofoCLyEemiKL0LQWSqAQ"/>
+  </links>
+  <links xsi:type="traceabilityModel:ClassTraceabilityLink" xmi:id="_2GC1MCLxEemiKL0LQWSqAQ" name="Unit2Group">
+    <links xmi:id="_FTDx8CLyEemiKL0LQWSqAQ"/>
+  </links>
+  <links xsi:type="traceabilityModel:ClassTraceabilityLink" xmi:id="_2WlLkCLxEemiKL0LQWSqAQ" name="ServiceLine2Group">
+    <links xmi:id="_FmfrUCLyEemiKL0LQWSqAQ"/>
+  </links>
+</traceabilityModel:TraceabilityModel>

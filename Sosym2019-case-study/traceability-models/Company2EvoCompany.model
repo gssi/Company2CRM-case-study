@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<traceabilityModel:TraceabilityModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:traceabilityModel="http://cs.gssi.it/traceabilitymodel" xmi:id="_Wup2YCMDEemiKL0LQWSqAQ" name="Company2EvoCompany">
+  <links xsi:type="traceabilityModel:ClassTraceabilityLink" xmi:id="_jkU2YCMFEemiKL0LQWSqAQ" name="Renaming">
+    <sourceElem href="../model/Company.ecore#//Company"/>
+    <targetElem href="../model/evo/Company.ecore#//Organisation"/>
+  </links>
+  <links xsi:type="traceabilityModel:ClassTraceabilityLink" xmi:id="_StTZcCMGEemiKL0LQWSqAQ" name="IntroduceSubclasses">
+    <targetElem href="../model/evo/Company.ecore#//Employee"/>
+    <links xmi:id="_V2XcICMGEemiKL0LQWSqAQ">
+      <constraint href="../model/Company.ecore#//Person/position"/>
+      <refConstraint href="../model/Company.ecore#//type/employee"/>
+      <targetElem href="../model/evo/Company.ecore#//Employee"/>
+    </links>
+  </links>
+  <links xsi:type="traceabilityModel:ClassTraceabilityLink" xmi:id="_WzFjECMGEemiKL0LQWSqAQ" name="CollapseHierarchy">
+    <links xmi:id="_8jRx0CMGEemiKL0LQWSqAQ"/>
+  </links>
+  <links xsi:type="traceabilityModel:ClassTraceabilityLink" xmi:id="_XEDXQCMGEemiKL0LQWSqAQ" name="MergeAttributes">
+    <links xmi:id="_9DcfoCMGEemiKL0LQWSqAQ">
+      <sourceElem href="../model/Company.ecore#//Person/firstname"/>
+      <sourceElem href="../model/Company.ecore#//Person/lastname"/>
+      <targetElem href="../model/evo/Company.ecore#//Person/fullName"/>
+    </links>
+  </links>
+  <links xsi:type="traceabilityModel:ClassTraceabilityLink" xmi:id="_XUdKwCMGEemiKL0LQWSqAQ" name="InlineClass">
+    <links xmi:id="_9eSBgCMGEemiKL0LQWSqAQ"/>
+  </links>
+  <links xsi:type="traceabilityModel:ClassTraceabilityLink" xmi:id="_jbvFoCMGEemiKL0LQWSqAQ" name="ChangeRefType">
+    <links xmi:id="_-C9b4CMGEemiKL0LQWSqAQ"/>
+  </links>
+  <links xsi:type="traceabilityModel:ClassTraceabilityLink" xmi:id="_l7RqMCMGEemiKL0LQWSqAQ" name="ChangeRefType">
+    <links xmi:id="_-dCIwCMGEemiKL0LQWSqAQ"/>
+  </links>
+</traceabilityModel:TraceabilityModel>

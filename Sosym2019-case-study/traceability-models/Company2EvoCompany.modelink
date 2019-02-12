@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modelink threeWay="true" forceExeedL="false" forceExeedM="false" forceExeedR="false">
+  <model path="/Sosym2019-case-study/model/Company.ecore" position="LEFT" />
+  <model path="/Sosym2019-case-study/traceability-models/Company2EvoCompany.model" position="MIDDLE" />
+  <model path="/Sosym2019-case-study/model/evo/Company.ecore" position="RIGHT" />
+</modelink>
+
